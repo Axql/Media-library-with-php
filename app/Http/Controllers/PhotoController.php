@@ -29,6 +29,7 @@ class PhotoController extends Controller
             ]);
         }
 
+
         return redirect()->back()->with('success', 'Photos uploaded successfully!');
     }
 }
